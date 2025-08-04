@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eco Water Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>💧 JalRakshak - Water Monitoring System</h1>
+      <p>
+        Empowering schools & senior centers to conserve water and promote
+        sustainability.
+      </p>
+
+      <form id="activityForm">
+        <input
+          type="text"
+          id="institute"
+          placeholder="Institute Name"
+          required
+        />
+        <input
+          type="number"
+          id="water"
+          placeholder="Water Used (in liters)"
+          required
+        />
+        <button type="submit">Log Usage</button>
+      </form>
+
+      <h2>Usage Log 📋</h2>
+      <ul id="activityList"></ul>
+
+      <h3>
+        <p>Total Entries: <span id="totalEntries">0</span></p>
+      </h3>
+    </div>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="script.js"></script>
+  </body>
+</html>
