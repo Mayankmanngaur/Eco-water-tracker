@@ -15,8 +15,7 @@ A full-stack web application built during a hackathon to promote **sustainable i
 ---
 
 ## 📷 Demo Preview
-
-![App Screenshot]([https://your-screenshot-url.com](https://github.com/user-attachments/assets/7632d1fb-9f24-4b62-b26e-e60093038e5d))
+Go and check out [eco-water-tracker.vercel.app](https://vercel.com/mayank-gaurs-projects-81e56b97/eco-water-tracker)
 
 ---
 
