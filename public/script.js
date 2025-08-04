@@ -48,4 +48,3 @@ async function deleteActivity(index) {
 }
 
 loadActivities();
-
